@@ -9,7 +9,7 @@ do
     if [ $find_file ]     # if the file or directory exists
     then
         echo "Output of ls -l $file:"
-        ls -l "$find_file"
+        ls -i "$find_file"
 
     else                  # if the file or directory does not exist
         echo "$file not found, sorry!!"
